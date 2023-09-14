@@ -1,0 +1,94 @@
+Transaction Date,Charge ID,Transaction Type,Payment Method,Amount,Payment Processing Fee,Payment Transaction ID
+"03-30-23,  7:32 AM",529bc3d099,Payment,Cash,$50.00,$0.00,925bac30-f7f5-4579-bb31-0ab4ce663c06
+"03-30-23,  8:15 PM",9d56335a57,Payment,Payment Card Manual Entry,$36.00,$0.94,10bbd533-da1a-4042-8a0c-d84fdd2b0a11
+"04- 9-23,  4:01 PM",4293441f82,Payment,Payment Card Terminal,$100.00,$2.60,f21f6f3e-9ed1-410c-9a01-aa3103a8b555
+"04-13-23,  6:54 PM",89f1ff3d75,Payment,Payment Card Terminal,$76.50,$1.99,e5e5a9af-cd7f-4b7f-af9b-d3d7478de5b7
+"04-18-23, 12:46 PM",cf50e8c956,Payment,Cash,$75.00,$0.00,dc235629-487b-487b-aad7-ee50b1eff00b
+"04-20-23,  6:38 PM",53730109f4,Payment,Cash,$125.00,$0.00,9f785a29-7710-42b1-a1e3-983f8c02b1b0
+"04-28-23,  3:08 PM",e31808f764,Payment,Cash,$0.00,$0.00,3307856c-e92c-4de1-9d7b-8ca0e8965241
+"05- 8-23,  1:15 PM",ba0665a54f,Payment,Cash,$20.00,$0.00,bb605460-9943-424a-a2c0-b24bc77654ce
+"05- 9-23,  8:25 PM",5457b28000,Payment,Cash,$25.00,$0.00,9f2c3237-b947-4fe1-b7a5-9ea1117ef052
+"05-10-23,  9:43 PM",dce7b75697,Payment,Payment Card Terminal,$362.00,$9.41,ec69e185-6126-4988-865e-7555cb45e6a9
+"05-13-23,  4:50 PM",7055f2a243,Payment,Payment Card Terminal,$173.25,$4.50,1b6e8093-0506-4873-ad2e-e391bd791e7a
+"05-15-23, 11:59 AM",37f000828a,Payment,Payment Card On File,$85.00,$2.21,4d757927-5778-4815-9253-93ebe94ee5f4
+"05-16-23,  8:25 PM",609b090a41,Payment,Payment Card Terminal,$435.32,$11.32,ead35b5c-902d-4bb5-a335-2792f952d1b1
+"05-18-23,  5:49 PM",1363a30014,Payment,Cash,$85.00,$0.00,1d88ac55-23ed-4461-86da-8b8899bf2988
+"05-19-23,  4:20 PM",b7fb7dfeaf,Payment,Cash,$85.00,$0.00,bd07e22a-b1d3-442a-a0d3-0586213fc428
+"05-20-23,  7:56 AM",c448c3292a,Payment,Payment Card On File,$90.00,$2.34,37e8121a-0c3f-4534-bf18-85f5ed0409d6
+"05-26-23, 11:02 AM",9d3025ed95,Payment,Cash,$0.00,$0.00,b7fa3a9e-08bd-45e9-a226-4be1b71a74f8
+"05-27-23, 10:21 AM",693f3428e1,Payment,Payment Card Terminal,$93.75,$2.44,8c2902d4-4be9-4c3f-900a-f72d1c1fcf55
+"05-28-23,  9:49 PM",88d65c695c,Payment,Payment Card Terminal,$90.00,$2.34,106dbca3-3487-48cb-85dc-734d9fdfedb8
+"05-28-23,  9:50 PM",b7f4743da4,Payment,Payment Card Terminal,$127.63,$3.32,16b002a0-eee1-4a1c-b8dd-34013ec29e09
+"05-29-23, 12:04 PM",840f945c89,Payment,Cash,$54.50,$0.00,ecd07030-fadd-46b6-86d0-a3010026098d
+"05-29-23, 12:20 PM",3e9348a6ee,Payment,Cash,$17.50,$0.00,c05b8fc0-2701-4c8a-9538-cd425fc9b295
+"05-31-23,  8:13 AM",acc05a12e2,Payment,Cash,$120.00,$0.00,30aa8562-a881-494d-9b5c-dcf8b15f62c8
+"06- 5-23,  5:21 PM",f8c0e2b519,Payment,Cash,$0.00,$0.00,3a70a659-960f-415c-b181-c2f4898cdead
+"06- 5-23,  7:02 PM",6be6340988,Payment,Payment Card Terminal,$187.50,$4.88,7ef831d4-958d-4fc4-bb78-aa779b35bf5e
+"06- 6-23,  8:04 PM",0bf8d6a527,Payment,Payment Card Terminal,$120.00,$3.12,6ce4f4ca-45ff-4366-b46f-b780626eb0cf
+"06- 8-23,  9:46 AM",8dc55b1cb5,Payment,Cash,$37.50,$0.00,b23d4d72-feb7-4ceb-b533-5e102bea8782
+"06- 9-23, 11:35 AM",686d3c6d3c,Payment,Cash,$125.00,$0.00,eb759638-0568-44af-be02-f83372da625c
+"06-12-23,  8:45 AM",7c4769c37a,Payment,Cash,$0.00,$0.00,647439e8-1d3c-413c-8f19-ac06a401835d
+"06-13-23,  9:25 AM",d4c2336e53,Payment,Cash,$0.00,$0.00,b3371c7b-764c-4e63-ab5e-a532e77641fe
+"06-13-23,  5:00 PM",8365124300,Payment,Cash,$62.50,$0.00,808e31cf-3e6e-44a0-ba56-ac95f2e59b98
+"06-13-23,  5:54 PM",db93d0aa23,Payment,Payment Card Terminal,$90.00,$2.34,978d2790-8133-46ed-b49d-52b1cf4ee7b4
+"06-13-23,  7:00 PM",e545c821f3,Payment,Payment Card Terminal,$90.00,$2.34,2a1c6375-5d2f-4258-b353-d1103b2ff7eb
+"06-18-23, 10:05 AM",228e4addba,Payment,Payment Card Terminal,$120.00,$3.12,22be88cf-ff50-4f54-b48f-cf52211aeda2
+"06-19-23, 11:07 AM",3a257c4eaa,Payment,Payment Card Terminal,$170.00,$4.42,7cce0c80-dd0e-4812-b3fb-800786ba2916
+"07- 1-23, 11:23 AM",58545d042f,Payment,Cash,$37.50,$0.00,d4812807-64a6-4b6d-89c7-52b60e4cd466
+"07- 1-23, 11:25 AM",fa1600526b,Payment,Payment Card Terminal,$93.75,$2.44,3426d49e-a5e4-47e3-a372-ac7f23043ab9
+"07- 6-23,  5:32 PM",29da19fa00,Payment,Cash,$0.00,$0.00,fedf8c9b-858f-4506-9b94-25b12561f704
+"07- 8-23,  3:18 PM",a16d983369,Payment,Cash,$30.00,$0.00,0bf53878-8f67-4164-80ee-2e1229435da6
+"07- 8-23,  5:38 PM",e8c99a79b3,Payment,Cash,$90.00,$0.00,5bedf3b7-28db-4490-92fa-4dcb117dc2d9
+"07- 9-23,  5:12 PM",b2ed445278,Payment,Cash,$64.35,$0.00,8422e3af-ae58-4864-b26c-e87690c4e5e0
+"07- 9-23,  5:13 PM",80fb10eab1,Payment,Cash,$105.00,$0.00,26afd660-b8c9-4f5f-8803-a0a56ce0b8e7
+"07-10-23,  9:07 AM",42fb3ca8d2,Payment,Cash,$110.00,$0.00,4ca41fbc-c4df-408d-b413-f90a6a8b33b0
+"07-13-23, 11:28 AM",8617f5ccce,Payment,Cash,$30.00,$0.00,46aee85c-4a76-43c8-8ab3-43403c2e295b
+"07-13-23,  6:58 PM",c6e3c4f269,Payment,Cash,$35.00,$0.00,ebd10688-39b9-43d0-b734-ccdaaaed499f
+"07-16-23,  6:37 PM",08d61d5646,Payment,Cash,$235.00,$0.00,6a2a6f87-48ce-4735-8702-49918b7489c1
+"07-20-23, 12:55 PM",62abc97a0c,Payment,Cash,$57.50,$0.00,b360088d-01ec-43b5-8004-9e18e6f29c6b
+"07-20-23,  6:09 PM",619fff73eb,Payment,Cash,$85.00,$0.00,1280412e-6f59-4852-9d30-b504477cf04f
+"07-22-23, 11:54 AM",63d63d0e02,Payment,Cash,$84.73,$0.00,a054f350-ff6d-4114-9ae1-7d45179a12e7
+"07-22-23, 11:54 AM",3eb2a4acbd,Payment,Cash,$57.50,$0.00,fb845846-0ed8-4e02-ba95-ea869f483605
+"07-22-23,  3:58 PM",4e2aa1b365,Payment,Cash,$120.00,$0.00,d34c7e5e-d30f-4e4c-9dc8-78556ed25b25
+"07-22-23,  4:26 PM",e1df875785,Payment,Cash,$0.00,$0.00,60c2985f-696c-41fd-8db5-843017220231
+"07-23-23, 12:45 PM",69e1087043,Payment,Payment Card Terminal,$90.00,$2.34,4b20b46d-94b1-43f8-b44d-59242a1f4b60
+"07-23-23,  1:56 PM",3d24a0694a,Payment,Cash,$75.00,$0.00,a15d6a51-7d12-4d55-8ce4-df8cd5c8f548
+"07-26-23,  2:27 PM",8150957121,Payment,Cash,$120.00,$0.00,79731efd-9de6-41b2-9ee8-e078d59844cb
+"07-26-23,  4:19 PM",e113dabb63,Payment,Payment Card Manual Entry,$90.00,$2.34,5838629c-fc57-4cd7-b37d-d01219b3aa18
+"07-27-23, 11:16 AM",71af49f21e,Payment,Cash,$75.00,$0.00,64cf42cc-3489-4c16-b0dd-8098a702a5b0
+"07-28-23,  4:08 PM",b4d18e63ef,Payment,Cash,$125.00,$0.00,4fd89610-6099-43f5-8933-f855d982f379
+"07-29-23,  1:04 PM",16d96ca208,Payment,Cash,$52.50,$0.00,a4ab99e4-9a1e-4e5f-9897-deb731077749
+"08- 1-23,  5:56 PM",f4e02cb3c7,Payment,Cash,$47.50,$0.00,1bd10bdf-0acb-4cd1-849d-b1688482f1fc
+"08-10-23, 11:26 AM",470a37663f,Payment,Cash,$30.00,$0.00,f20ebc4e-d2e5-40e6-8b20-c859884e8c5f
+"08-11-23, 11:59 AM",4d7dbd0f94,Payment,Payment Card On File,$99.75,$2.59,7bf747c6-061c-49cf-ae88-85e181891c27
+"08-11-23, 12:02 PM",22f7898247,Payment,Cash,$90.00,$0.00,db6791cf-1a3f-4299-a9fd-6947c3dcdb43
+"08-18-23,  3:01 PM",4234db532d,Payment,Payment Card On File,$121.00,$3.15,d73c3d3b-d47d-4b56-b8ec-df03f8b2f44d
+"08-19-23, 11:42 AM",6eababea77,Payment,Cash,$51.87,$0.00,82244db4-88f3-4558-aa05-c1a5c1d352b7
+"08-19-23, 12:58 PM",ed3dc0a09e,Payment,Apple Tap To Pay,$125.00,$3.25,e62f64f3-1c8f-4c87-b0ed-d980af8b6099
+"08-19-23,  2:58 PM",ffbd6dfa82,Payment,Cash,$51.87,$0.00,2ad98314-dbd2-4d6f-a53b-99502ea5ec9c
+"08-19-23,  4:02 PM",a6569aeccb,Payment,Payment Card Terminal,$12.00,$0.31,9d61b2d1-2929-4449-9b9b-d67446462af2
+"08-19-23,  4:06 PM",aa4cb91463,Payment,Cash,$31.87,$0.00,7abe8f13-4917-4cd2-bf87-9c5f9fec6fdf
+"08-20-23, 12:09 PM",a3aab5a2bb,Payment,Cash,$18.50,$0.00,6f77408e-42c0-4861-90d7-1f013df82d9b
+"08-20-23,  1:56 PM",19553e0837,Payment,Cash,$115.00,$0.00,cf49e567-bca5-456f-b24c-d08ec207f0be
+"08-20-23,  3:40 PM",a72bf3a626,Payment,Payment Card Terminal,$96.25,$2.50,d940b840-b79d-4904-983d-8a77f0ede24b
+"08-22-23, 12:33 PM",0e3446bbf3,Payment,Cash,$75.00,$0.00,a05a39e2-3cf4-4b08-9a09-a21d387a11f9
+"08-25-23,  5:16 PM",6c4973ec4d,Payment,Payment Card Terminal,$93.75,$2.44,db14e529-2365-438f-90f7-5cd97d2f1c68
+"08-26-23,  2:16 PM",9cd495e2a8,Payment,Payment Card Terminal,$85.00,$2.21,88393aa8-344a-437b-9325-6aea18fd5371
+"08-26-23,  4:15 PM",8b9d4e06c1,Payment,Cash,$120.00,$0.00,6c90248f-d3c4-4a19-9c22-47060866c04f
+"08-29-23, 12:57 PM",8f954073df,Payment,Cash,$51.87,$0.00,ff319f3a-a0ea-44c1-bd2d-5a2ad22e0bf2
+"09- 1-23, 11:41 AM",3aed808321,Payment,Cash,$95.00,$0.00,4e3cb54f-ac60-4462-a1e3-7c44328b5105
+"09- 1-23,  1:29 PM",778fcbb707,Payment,Cash,$52.50,$0.00,d8b1dc5c-c217-45f8-931c-817e985e720a
+"09- 2-23, 10:49 AM",cb54e2c3db,Payment,Cash,$17.50,$0.00,63609624-e510-4cba-a788-54ca4bfb6fd0
+"09- 2-23,  2:57 PM",01cb2e501a,Payment,Apple Tap To Pay,$100.00,$2.60,77bd8870-de04-4cb4-bbb0-8ccf6eb9552c
+"09- 3-23,  2:23 PM",b30357256d,Payment,Cash,$22.50,$0.00,c3e22d17-3d29-4fa5-ad80-2e9ba27785e6
+"09- 5-23,  5:36 PM",73b9e68cd6,Payment,Cash,$37.50,$0.00,1c20ea16-5e73-4b51-bb29-e3848ae329e5
+"09- 6-23,  3:00 PM",142f661318,Payment,Payment Card Terminal,$104.71,$2.72,93569f13-f8b8-49c1-b9a2-0b5924d3eec0
+"09- 6-23,  3:02 PM",c42cc3b099,Payment,Cash,$37.50,$0.00,0995ad2d-9e65-4fb4-bd21-ded0916af354
+"09- 9-23, 12:35 PM",d0524ac940,Payment,Cash,$115.00,$0.00,d93dd13d-034d-4c83-8d89-911fba12288f
+"09- 9-23,  1:51 PM",e3a44039f8,Payment,Cash,$30.00,$0.00,d2067e01-6bba-4fa7-925e-5cdad39241d4
+"09-10-23,  7:48 AM",da833aa652,Payment,Cash,$20.00,$0.00,f6fb27b3-43e6-4329-8485-07f75231dc87
+"09-10-23,  1:57 PM",76e7f2f2c8,Payment,Cash,$42.50,$0.00,740376bd-fe3b-4b5a-99df-c197969aa61a
+"09-10-23,  3:28 PM",1ca3434ebb,Payment,Cash,$37.50,$0.00,6c50b791-a620-49da-9ec4-909ae3ed88a8
+"09-12-23,  5:17 PM",6bf2754dfb,Payment,Payment Card Terminal,$42.90,$1.12,429cb755-5b77-421b-af85-f61f7587a926
+"09-12-23,  5:19 PM",687c528e5e,Payment,Cash,$57.50,$0.00,cc24983d-47fa-4b2e-a6c8-da931e1d23e3
+"09-13-23,  4:04 PM",8ae36207dd,Payment,Cash,$57.50,$0.00,47f6afe2-9d86-4061-90b4-f33c27248dc7

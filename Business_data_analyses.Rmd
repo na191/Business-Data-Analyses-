@@ -1,0 +1,135 @@
+---
+title: "Business Data Analytics"
+output: html_document
+date: "2023-09-14"
+---
+
+##Spa Data Analytics
+
+This document uses a subset of data from my business to find key insights on revenue, services, and appointments. 
+
+```{r cars, results='hide', message=FALSE}
+library('tidyr')
+library(dplyr)
+#install.packages("lubridate", dependencies=TRUE, repos='http://cran.rstudio.com/')
+library(lubridate)
+library(ggplot2)
+library(readr)
+library(grid)
+library(gridExtra)
+library(magrittr)
+library(stringr)
+```
+
+## Read in Data 
+
+```{r pressure, message=FALSE, results='hide'}
+retail_data <- read.csv('Retail Sales.csv')
+
+appointment_data <- read.csv('Appointments.csv')
+
+payment_details <- read.csv('Payment Details.csv')
+
+#cleaning data 
+#looking at data types 
+str(appointment_data)
+str(retail_data)
+str(payment_details)
+```
+
+## Looking Into Appointment Data 
+```{r}
+#appointment data 
+#parsing dates and setting to date type
+appointment_data <- appointment_data %>% 
+  separate(Date.of.Appointment, c("Date.of.appointment", "Time.of.appointment"), ",")
+#set to date 
+appointment_data$Date.of.appointment <- as.Date(appointment_data$Date.of.appointment, format = "%m-%d-%y")
+
+# see number of appointments by month 
+appointment.by.month <- appointment_data %>%
+  group_by(month = lubridate::floor_date(Date.of.appointment, 'month')) %>% tally()
+
+appointments_plot <- ggplot(appointment.by.month, aes(x=month, y=n)) + 
+  geom_bar(stat = "identity", fill = 'lightblue') + theme_dark()+
+  ggtitle("Number of Appointments per Month") + labs(x = 'Month', y = "Number of Appointments") +   geom_text(
+    aes(label = n),
+    colour = "white", size = 3,
+    vjust = 1.5, position = position_dodge(.9)
+  ) + scale_x_date(date_breaks = '1 month', date_labels = '%b')
+
+```
+
+
+## Calculating Revenue By Month 
+```{r}
+payment_details <- payment_details %>% 
+  separate(Transaction.Date, c("Date.of.trans", "Time.of.trans"), ",")
+#set to date 
+payment_details$Date.of.trans <- as.Date(payment_details$Date.of.trans , format = "%m-%d-%y")
+payment_details$Amount <- parse_number(payment_details$Amount)
+
+revenue_by_month <- payment_details %>% group_by(month = lubridate::floor_date(Date.of.trans, 'month')) %>% 
+  summarise(rev_per_month = sum(Amount))
+
+num_trans_permonth <- payment_details %>% group_by(month = lubridate::floor_date(Date.of.trans, 'month')) %>% 
+  tally()
+
+
+revenue_plot <- ggplot(revenue_by_month , aes(x=month, y=rev_per_month)) + 
+  geom_bar(stat = "identity", fill = 'darkolivegreen3') + theme_dark()+
+  ggtitle("Revenue Per Month") + labs(x = 'Month', y = "Revenue (USD)") +  
+  scale_x_date(date_breaks = '1 month', date_labels = '%b') + geom_text(
+    aes(label = rev_per_month),
+    colour = "white", size = 3,
+    vjust = 1.5, position = position_dodge(.9))
+```
+
+
+## Finding Top Customers by both Number of Appointments and Revenue 
+```{r}
+# top customers 
+#by number of appointments 
+VIP_num_appointments <- appointment_data %>% group_by(Client.Name) %>% tally() %>% arrange(-n) %>% slice(1:3) %>%
+  setNames(c('Client', 'Number of Appointments'))
+
+#by revenue 
+revenue_by_person <- merge(appointment_data, payment_details, by = 'Charge.ID')
+
+VIP_by_rev <- revenue_by_person %>% group_by(Client.Name) %>% summarise(rev_per_person = sum(Amount)) %>% 
+  arrange(-rev_per_person) %>% slice(1:3) %>% setNames(c('Client', 'Total Revenue'))
+```
+
+
+## Finding out my most booked services 
+```{r}
+services <- str_split(appointment_data$Services, pattern = ",", n = Inf)
+services_df <- as.data.frame(table(unlist(lapply(services, unique)))) 
+services_df <- services_df %>% arrange(-Freq)%>% slice(1:5) %>% setNames(c('Service', 'Number Booked'))
+```
+
+
+## Putting Together Insights 
+```{r, fig.height = 8}
+add_title <- function(g, title, padding = unit(2,"mm"), lpos=1, ...){
+  tg <- textGrob(title, ...)
+  g %>%
+    gtable::gtable_add_rows(heights = grobHeight(tg) + padding, pos = 0L) %>% 
+    gtable::gtable_add_grob(tg, t=1,b=1,l=lpos,r=ncol(g))
+  
+}
+
+grid.arrange(
+  appointments_plot, 
+  revenue_plot,
+  tableGrob(VIP_num_appointments) %>% add_title('VIP Clients by Number of Appointments'),
+  tableGrob(VIP_by_rev) %>% add_title('VIP Clients by Revenue'),
+  tableGrob(services_df) %>% add_title('Most Booked Services'),
+  layout_matrix= rbind(c(1,2), c(3,4), 5)
+)
+  
+  
+```
+
+
+
